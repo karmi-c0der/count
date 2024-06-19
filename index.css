@@ -1,0 +1,57 @@
+body{
+    font-family: 'lara', serif;
+    font-style: normal;
+    font-weight: 700;
+    background-color: pink;
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border:1px solid rgb(21, 21, 21);
+    background: rgb(247, 152, 168);
+    width:700px;
+    margin:0 auto;
+}
+
+button{
+    background-color: rgb(10, 163, 171);
+    border-radius: 10px 13px;
+    color: rgb(3, 1, 21);
+    padding: 15px 20px;
+    font-size: 12px;
+    margin: 10px;
+    transition-duration: 0.4s;
+}
+
+button:hover{
+    background-color: rgb(241, 235, 247);
+    color: rgb(16, 15, 16);
+}
+
+p{
+    text-align:center;
+    font-size: 24px;
+
+
+}
+h2, p{
+    color: rgb(8, 1, 8);
+    
+    font-size: 34px;
+}
+
+h2:hover{
+    color: rgb(242, 8, 180);
+    background-color: rgb(245, 115, 232);
+}
+#output{
+    border:2px solid rgb(225, 166, 226);
+    width: 50px;
+    height:50px;
+    margin:0 auto;
+    padding: 50px 45px;
+    background-color: rgb(245, 170, 177);
+}
